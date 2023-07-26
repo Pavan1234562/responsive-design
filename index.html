@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+      /* Optional: Add some top padding to the body to prevent content from being hidden behind the fixed navbar */
+      body {
+        padding-top: 70px;
+      }
+    </style>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #4eb5ff;">
+      <div class="container-fluid">
+        <!--button for mobile navbar-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#start">
+            <span class="text fw-bold">
+              <i class="bi bi-window-dock  mb-lg-0"></i>
+              Responsive- Web Design
+            </span>
+          </a>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- Changed 'me-auto' to 'ms-auto' -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#start">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#images">Images</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="start" class="py-5">
+      <div class="container-lg">
+        <div class="row g-4 justify-content-center align-items-center">
+          <div class="col-md-5 text-center text-md-start">
+            <h1>
+              <div class="display-2">Responsive</div>
+              <div class="display-5" style="-webkit-text-fill-color:  #CD7F32;">Web Design</div>
+            </h1>
+            <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dignissimos?</p>
+          </div>
+          <div class="col-md-5 text-center d-none d-md-block">
+            <img src="photos/Screenshot 2023-07-26 185355.png" class="img-fluid mt-5" alt="ebook">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--images-->
+    <section id="images" class="py-5" style="background-color: rgb(240, 234, 234);">
+      <div class="text-center mt-5">
+        <h2>Images</h2>
+        <p class="lead">These images are used solely to add an element of joy and amusement to the content</p>
+      </div>
+      <div class="container mt-5 mb-7" >
+        <div class="row" style="background-color: aliceblue;">
+          <div class="col-md-6" >
+            <!-- Image -->
+            <img src="photos/luffy.png" class="img-fluid mb-4" alt="luffy">
+          </div>
+          <div class="col-md-6  mb-4">
+            <!-- Text -->
+            <h2 class="text-warning text-center pt-5">1. Monkey D-Luffy </h2>
+            <p>Monkey D. Luffy, also known as Straw Hat Luffy, is the protagonist of the One Piece franchise. He is the captain of the Straw Hat Pirates that wants to find the One Piece treasure and become the King of the Pirates. He is also the son of Monkey D. Dragon, the grandson of Monkey D. Garp and the adoptive younger brother of Portgas D. Ace and Sabo.</p>
+          </div>
+        </div>
+        <div class="row" style="background-color: rgb(249, 255, 240);">
+          <div class="col-md-6 col-lg-6 mb-4">
+            <!-- Text -->
+            <h2 class="text-warning text-center pt-5">2. Zorojuro </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis iusto recusandae voluptate neque, asperiores itaque temporibus nam eveniet est perferendis explicabo incidunt et molestias, totam tempora fuga numquam soluta.</p>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <!-- Image -->
+            <img src="photos/zoro.png" class="img-fluid mb-4" alt="Zorojuro">
+          </div>
+        </div>  
+        <div class="row" style="background-color: rgb(255, 244, 240);">
+          <div class="col-md-6">
+            <!-- Image -->
+            <img src="photos/sanji.png" class="img-responsive" style="max-width: 100%; height: 450px; padding-left: 20%;" alt="Zorojuro">
+          </div>
+          <div class="col-md-6 col-lg-6 mb-4">
+            <!-- Text -->
+            <h2 class="text-warning text-center pt-5">3. sanji </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ducimus culpa, quod totam aut corrupti in numquam facilis tempora illum corporis eaque. In ut iste ex porro pariatur laudantium tempore reiciendis ea delectus totam sit, culpa nesciunt necessitatibus, voluptatem numquam quae labore sunt error iusto! Placeat debitis id ipsum officiis voluptatem explicabo iusto? Error officiis odio illo aliquam commodi culpa.</p>
+          </div>
+        </div>       
+      </div>
+    </section>
+    <!--About-->
+    <section id="about" class="py-5">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>About Pirates</h2>
+            <p class="lead">A pirate in the world of One Piece is anyone who raises a Jolly Roger, whether they commit an act of piracy or not. This is not, however, usually enough to give anyone a bounty, but is enough to be arrested by the Marines. Bandits are said to be the opposite of pirates. </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-8 text-center text-primary pt-5">
+            <h4>Their Mission</h4>
+            <p class="text-muted align-center">The One Piece is the driving goal of Monkey D. Luffy and his crew, as well as that of multiple other pirates, who all seek to claim the treasure in order to become the next Pirate King, following Roger's dying words at his execution.</p>
+          </div>
+          <div class="col-md-4">
+            <!-- Image -->
+            <img src="photos/laugh_tale_one_piece.jpg" class="img-fluid mb-4" alt="onepiece">
+          </div>
+          <div class="col-md-8 text-center text-primary pt-5">
+            <h4>Luffy's Dream</h4>
+            <p class="text-muted align-items-center">While Luffy's immediate goal is to find the One Piece treasure and be recognized as the new Pirate King, the manga has recently revealed that this is only a means to something else that remains secret, but One Piece Film: Red just dropped a huge hint on what Luffy's real dream is.</p>
+          </div>
+          <div class="col-md-4">
+            <!-- Image -->
+            <img src="photos/luffy dream.jpg" class="img-responsive" style="max-width: 100%;" alt="onepiece">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--contact us-->
+    <section id="contact" class="py-5">
+      <div class="container-lg mt-5 pt-3" style="background-color: rgb(240, 234, 234);">
+        
+        <div class="text-center">
+          <h2>Get in Touch</h2>
+          <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-lg-6">
+            
+            <form>
+              <label for="email" class="form-label">Email address:</label>
+              <div class="input-group mb-4">
+                <span class="input-group-text">
+                  <i class="bi bi-envelope-fill text-secondary"></i>
+                </span>
+                <input type="text" id="email" class="form-control" placeholder="e.g. mario@example.com" />
+                <!-- tooltip -->
+                <span class="input-group-text">
+                  <span class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to.">
+                    <i class="bi bi-question-circle text-muted"></i>
+                  </span>
+                </span>
+              </div>
+              <label for="name" class="form-label">Name:</label>
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-person-fill text-secondary"></i>
+                </span>
+                <input type="text" id="name" class="form-control" placeholder="e.g. Mario" />
+                <!-- tooltip -->
+                <span class="input-group-text">
+                  <span class="tt" data-bs-placement="bottom" title="Pretty self explanatory really...">
+                    <i class="bi bi-question-circle text-muted"></i>
+                  </span>
+                </span>
+              </div>
+              <label for="subject" class="form-label">What is your question about?</label>
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-chat-right-dots-fill text-secondary"></i>
+                </span>
+                <select class="form-select" id="subject">
+                  <option value="pricing" selected>Pricing query</option>
+                  <option value="content">Content query</option>
+                  <option value="other">Other query</option>
+                </select>
+              </div>
+              <div class="mb-4 mt-5 form-floating">
+                <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+                <label for="query">Your query...</label>
+              </div>
+              <div class="mb-4 text-center">
+                <button type="submit" class="btn btn-secondary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script> 
+    tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+      new bootstrap.Tooltip(t)
+    })
+    function closeNavbarOnSmallScreen() {
+    if (window.innerWidth < 992) { 
+      const navbarToggler = document.getElementById('navbarTogglerDemo01');
+      if (navbarToggler.classList.contains('show')) {
+        navbarToggler.classList.remove('show');
+      }
+    }
+  }
+  const navLinks = document.querySelectorAll('.nav-link');
+  navLinks.forEach((link) => {
+    link.addEventListener('click', closeNavbarOnSmallScreen);
+  });
+  </script>
+  </body>
+</html>
